@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'mplusblack';
+	src: url(fonts/MPLUS1p-Black.ttf);
+}
+@font-face {
+    font-family: 'mplusregular';
+    src: url(fonts/MPLUS1p-Regular.ttf);
+}
+.field {
+    display: flex;
+    }
+    h1 {
+        font-size: 60px;
+        background-color: #82c3cc;
+        color: #ffffff;
+        padding: 17px 14px;
+        font-family: "mplusblack";
+    }
+    p {
+        font-size: 28px;
+        color: #000000;
+        font-family: "mplusregular";
+    }
+    table th{
+        font-size: 40px;
+        font-family: "mplusblack";
+        padding: 10px 20px;
+        color: #6495ed;
+        background: #b1dffc;
+        -webkit-text-stroke-width: 1.4px;
+        -webkit-text-stroke-color: #ffffff;
+    }
+    table td{
+        font-size: 30px;
+        font-family: "mplusregular";
+        color: #000000;
+        background: #e7fdfd;
+    }
+    table th, table td{
+        border: dashed 3px #5db1e6;
+        text-align: center;
+    }
+    table {
+        border-collapse: collapse;
+        border: solid 5px #1e90ff;
+    }
+    iframe {
+        border: 5px #1e90ff solid;
+    }
