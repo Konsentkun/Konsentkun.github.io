@@ -8,14 +8,16 @@
 }
 .field {
     display: flex;
-    }
-    h1 {
-        font-size: 60px;
-        background-color: #82c3cc;
-        color: #ffffff;
-        padding: 17px 14px;
-        font-family: "mplusblack";
-    }
+}
+h1 {
+    font-size: 80px;
+    background-color: #82c3cc;
+    color: #82c3cc;
+    padding: 17px 14px;
+    font-family: "mplusblack";
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+}
     p {
         font-size: 28px;
         color: #000000;
