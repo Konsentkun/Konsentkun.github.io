@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ネオンテキストジェネレーター</title>
+    <link rel="stylesheet" href="neon.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="textInput" placeholder="ネオンテキストを入力">
+        <p>色選択</p>
+        <input type="color" id="colorPicker" value="#ff00ff" class="colorpicker">
+        <select id="animationSelect" class="animationselect">
+            <option value="pulse">明滅</option>
+            <option value="wave">波動</option>
+            <option value="flicker">ちらつき</option>
+        </select>
+        <div id="neonText">Neon Text</div>
+        <button><a href="../tools.html">ツールへ戻る</a></button>
+    </div>
+    <script src="neon.js"></script>
+</body>
+</html>

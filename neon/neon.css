@@ -1,0 +1,60 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#neonText {
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+.colorpicker {
+    padding: 20px;
+}
+.animationselect {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+p {
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+}
+button {
+    background-color: #ff00ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #940094;
+    color: white;
+}

@@ -1,0 +1,14 @@
+.toolsbox {
+    background: #ffffff;
+    transition: 0.7s;
+}
+.toolsbox:hover {
+    background: #e4e4e4;
+    transition: 0.7s;
+}
+a {
+    color: #0066ff;
+}
+a:hover {
+    color: #003e9b;
+}
