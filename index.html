@@ -1,105 +1,81 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RareHair</title>
-    <link rel="stylesheet" href="bulma.css">
-    <link rel="stylesheet" href="pcstyle.css" media="screen and (min-width: 769px)">
-    <link rel="stylesheet" href="smartstyle.css" media="screen and (max-width: 768px)">
-    
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>コンセント君公式ホームページ</title>
     <link rel="icon" href="img/logo.png">
-</head>
-<body oncontextmenu="return false;" id="top">
-    <div class="up">
-        <img src="img/img2_m.jpg" />
-        <p>RareHair</p>	
-    </div>
-    <section class="section">
-        <div class="links">
-            <button popovertarget="image1"><img src="img/img_m.jpg"></button>
-            <button popovertarget="image2"><img src="img/img2_m.jpg"></button>
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="body">
+    <section class="hero is-success is-medium">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+          <nav class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <span class="navbar-burger" data-target="navbarMenuHeroA">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </div>
+              <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-end">
+                  <a class="navbar-item is-active"> ホーム </a>
+                  <a class="navbar-item" href="tools.html"> ツール </a>
+                  <a class="navbar-item" href="https://note.com/note_konsentkun"> Note </a>
+                </div>
+              </div>
+            </div>
+          </nav>
         </div>
-        <div popover id="image1">
-            <img src="img/img_m.jpg">
-            <button popovertarget="image1" popovertargetaction="hide">X</button>
+      
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <p class="title is-size-1">コンセント君公式ホームページ</p>
+            <p class="subtitle is-size-2">|△|</p>
+            <progress class="progress"></progress>
+          </div>
         </div>
-        <div popover id="image2">
-            <img src="img/img2_m.jpg">
-            <button popovertarget="image2" popovertargetaction="hide">X</button>
+      </section>
+      <section class="section">
+        <div class="box">
+            <p class="is-size-2">活動サービス</p>
+            <table class="table is-bordered is-size-4 has-text-centered table">
+                <tr>
+                    <th>サービス</th><th>リンク</th>
+                </tr>
+                <tr>
+                    <td>Youtube</td><td><a href="https://www.youtube.com/@konsentkun" target="_blank">@konsentkun</a></td>
+                </tr>
+                <tr>
+                    <td>ニコニコ動画</td><td><a href="https://www.nicovideo.jp/user/130202581" target="_blank">130202581</a></td>
+                </tr>
+                <tr>
+                    <td>X</td><td><a href="https://x.com/konsentkun" target="_blank">コンセント君</a></td>
+                </tr>
+                <tr>
+                    <td>Scratch</td><td><a href="https://scratch.mit.edu/users/konsentkun/" target="_blank">konsentkun</a></td>
+                </tr>
+                <tr>
+                    <td>Lit.link</td><td><a href="https://lit.link/konsentkun" target="_blank">コンセント君</a></td>
+                </tr>
+              </table>
         </div>
-        <div class="concept">
-            <h1 class="title">CONCEPT</h1>
-            <p>皆様に親しまれるアットホーム！働く人々の憩いの場！そういうコンセプトに生まれた高野台のヘアサロン！
-                カットはもちろん、デジタルパーマやシステムトリートメントなどその他メニューも充実☆ご要望に合わせてエクステやヘアセットも承ります！お疲れのお客様には本格アロマのヘッドスパもしっかり癒されオススメです！新導入の炭酸泉も大人気☆ReFa （リファ）商材も取り扱い中。
-                平日は夜21時まで営業で、19時までの受付でパーマもカラーもOKです！（同時施術や特殊メニューの受付時間はご相談ください）お仕事帰りでもお気軽にお立ち寄りいただけます！スタッフ一同、皆様のご来店をお待ちしております♪</p>
+          <div class="box">
+            <p class="is-size-2">動画リスト</p>
+            <iframe width="575" height="330" src="https://www.youtube.com/embed/videoseries?si=UeJumDS02H8sqVOI&amp;list=PLh2FGJxEGj-T-A-xr6AXvS5xKaorRrIXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <div class="box menu">
-            <h1 class="title">MENU</h1>
-            <table align="center" class="table has-text-centered">
-                <tr>
-                    <th>CUT</th><th>￥4400</th>
-                </tr>
-                <tr>
-                    <th>COLOR</th><th>￥5500～</th>
-                </tr>
-                <tr>
-                    <th>PARM</th><th>￥11000～</th>
-                </tr>
-                <tr>
-                    <th>DIGITALPARM</th><th>￥13200～</th>
-                </tr>
-                <tr>
-                    <th>STRAIGHT</th><th>￥14850～</th>
-                </tr>
-                <tr>
-                    <th>HEAD SPA</th><th>￥3300</th>
-                </tr>
-            </table>
-        </div>
-        <div class="box acces">
-            <h1 class="title">ACCES</h1>
-            <table align="center" class="table">
-                <tr>
-                    <th class="black">住所</th><th><a href="https://maps.app.goo.gl/Fg1CRXgYNkcZ8hwp9" target="_blank">〒305-0074 茨城県つくば市高野台２丁目９−５ サザンクロス</a></th>
-                </tr>
-                <tr>
-                    <th class="black">アクセス</th><th>常磐自動車道「桜土浦IC」から車で約15分、圏央道「つくば牛久IC」から車で約5分、R408沿いにございます。</th>
-                </tr>
-                <tr>
-                    <th class="black">電話番号</th><th>029-879-9785</th>
-                </tr>
-                <tr>
-                    <th class="black">営業時間</th><th>平日 10:00 ～ 21:00 (受付は19:00)<br>土日祝 10:00 ～ 20:00(受付は18:00)<br>※完全予約制</th>
-                </tr>
-                <tr>
-                    <th class="black">定休日</th><th>火曜日・第3月曜日</th>
-                </tr>
-                <tr>
-                    <th class="black">駐車スペース</th><th>3台</th>
-                </tr>
-            </table>
-        </div>
-        <div class="box message">
-            <h1 class="title">MESSAGE</h1>
-            <p>＊スタッフ募集中＊（美容経験者優遇）<br>
-                シャンプー・カラーリングスタッフ募集！<br>
-                子育てで一度現場から離れたけどもう一度働きたい！という方も大歓迎です◎<br>
-                パートでもOK！勤務時間などご相談ください。</p>
-        </div>
-    </section>
-    <footer>
-        <a href="#top" class="gotop"></a>
-        <img src="img/logo2.png" width="30%">
-    </footer>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal({ reset: false });
-        ScrollReveal().reveal('.links', { delay: 200 });
-        ScrollReveal().reveal('.concept', { delay: 500 });
-        ScrollReveal().reveal('.menu', { delay: 500 });
-        ScrollReveal().reveal('.acces', { delay: 500 });
-        ScrollReveal().reveal('.message', { delay: 500 });
-    </script>
-</body>
+        <button v-on:click="syobotton" class="button section is-size-4" id="syobu">しょぼんボタン</button>
+      </section>
+      <footer>
+        <a href="#body" class="gotop">↑</a>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
 </html>
