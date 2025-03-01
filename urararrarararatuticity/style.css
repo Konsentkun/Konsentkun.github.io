@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "linebd";
+    src: url(font/LINESeedJP_A_OTF_Bd.otf);
+}
+@font-face {
+    font-family: "lineeb";
+    src: url(font/LINESeedJP_A_OTF_Eb.otf);
+}
+@font-face {
+    font-family: "linerg";
+    src: url(font/LINESeedJP_A_OTF_Rg.otf);
+}
+@font-face {
+    font-family: "lineth";
+    src: url(font/LINESeedJP_A_OTF_Th.otf);
+}
+html {
+    scroll-behavior: smooth ;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #b6d7a8;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+ul {
+    display: flex;
+    border:solid 5px #9daf95;
+}
+li {
+    list-style: none;
+}
+ul a {
+    display: block;
+    font-family: "linebd";
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+}
+ul a:hover {
+    color: #51ff00;
+}
+.up {
+    position: relative;
+}
+.up h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "lineeb";
+    font-size: 200px;
+    color: rgb(2, 255, 103);
+    backdrop-filter: blur(40px);
+}
+.up .small {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "lineeb";
+    font-size: 150px;
+    color: rgb(2, 255, 103);
+    backdrop-filter: blur(40px);
+}
+.up .verysmall {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "lineeb";
+    font-size: 87px;
+    color: rgb(2, 255, 103);
+    backdrop-filter: blur(40px);
+}
+.up img {
+    width: 100%;
+    height: 900px;
+    filter: blur(10px);
+}
+.section {
+    text-align: center;
+}
+.section h1 {
+    font-size: 80px;
+    font-family: "linebd";
+}
+.section h2 {
+    font-family: "linebd";
+    font-size: 50px;
+}
+.section h3 {
+    font-family: "linerg";
+    font-size: 30px;
+}
+.section p {
+    font-size: 50px;
+    font-family: "linerg";
+}
+.section img {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    transition: 0.3s;
+    border:solid 0px #b6d7a8;
+}
+.section img:hover {
+    transition: 0.3s;
+    border:solid 10px #b6d7a8;
+}
+.robloxlink img {
+    border-radius: 30px;
+    width: 700px;
+    transition: 0.3s;
+    border:solid 0px #b6d7a8;
+}
+.robloxlink img:hover {
+    border-radius: 20px;
+    transition: 0.3s;
+    border:solid 5px #b6d7a8;
+    width: 800px;
+}
+footer {
+    background: #b6d7a8;
+}
+footer p {
+    font-size: 40px;
+}
+footer .suika {
+    border-radius: 30px;
+    transition: 0.3s;
+    width: 140px;
+}
+footer .suika:hover {
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 140px;
+}
+footer .konsent {
+    border-radius: 30px;
+    transition: 0.3s;
+    width: 180px;
+}
+footer .konsent:hover {
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 180px;
+}
+footer img {
+    width: 130px;
+}
+a {
+    font-size: 50px;
+    font-family: "linerg";
+}
+.zettai {
+    font-family: "lineeb";
+    text-decoration:underline;
+}
+.bgreen {
+    color: rgb(0, 0, 0);
+    background-color: #e9f8e2;
+}
+.bgreen:hover {
+    color: white;
+    background-color: #8faf81;
+}
