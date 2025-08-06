@@ -1,8 +1,14 @@
 header{
+    transition: 0.2s;
     font-size: 140px;
     text-align:center;
     background: #2a2a2a;
     color: white;
+}
+header:hover{
+  transition: 0.2s;
+  color: rgb(201, 201, 201);
+  background-color: #3f3f3f;
 }
 html{
   background-color: #5a5a5a;
@@ -56,6 +62,7 @@ html{
     .suikagame :hover{
         background-color: #757575;
         transition: 0.2s;
+        max-width: 1000px;
     }
 
     h1{
@@ -63,5 +70,12 @@ html{
     }
 
     a{
+      transition: 0.2s;
       color: #66ccff;
+      font-size: 15px;
+    }
+    a:hover{
+      transition: 0.2s;
+      color: #a1e0ff;
+      font-size: 20px;
     }
